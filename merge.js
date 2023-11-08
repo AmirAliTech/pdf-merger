@@ -10,7 +10,7 @@ const mergePdfs = async (p1, p2) => {
   return d
   // Export the merged PDF as a nodejs Buffer
   // const mergedPdfBuffer = await merger.saveAsBuffer();
-  // fs.writeSync('merged.pdf', mergedPdfBuffer);
+  // fs.writeSync('merged.pdf', mergedPdfBuffer)
 } 
 
 module.exports = {mergePdfs}
